@@ -1,0 +1,747 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**************main body tags***********************/
+body{
+	background-color:#000;
+}
+
+.contentCenter{
+	margin:0 auto;
+	width:100%;
+	max-width:1900px;
+}
+/****************end main body tags***********************/
+
+
+/*************header*******************************/
+header{
+	display:block;
+	border-bottom:#000 thick solid;
+	width:100%;
+	margin:0 auto;
+	background-color:#fff;
+}
+
+.logo{
+	width:80%;
+	max-width:388px;
+}
+
+#logoWrap{
+	text-align:center;
+	margin-top:5px;
+}
+		
+/*nav*/
+.navPics{
+	width:100%;
+	max-width:249px;
+}
+
+#mainNav{
+	width:100%;
+}
+
+ul{
+	width:100%;
+}
+
+li{
+	width:25%;
+	float:left;
+	list-style:none;
+}
+
+li a{
+	display:inline-block;
+	max-width:254px;
+}
+
+@media screen and (min-width:690px){
+	#logoWrap{
+		width:38%;
+		text-align:left;
+		float:left;
+		margin-left:2%;
+	}
+	
+	#mainNav{
+		width:33%;
+		float:left;
+		margin-left:25%;
+		margin-right:2%;
+		margin-top:25px;
+	}
+	
+	header{
+		position:fixed;
+		top:0px;
+		z-index:150;
+	}
+}
+
+
+@media screen and (min-width:900px){
+	#logoWrap{
+		width:25%;
+		text-align:left;
+		float:left;
+		margin-left:2%;
+	}
+	
+	#mainNav{
+		width:25%;
+		float:left;
+		margin-left:41%;
+		margin-right:2%;
+		margin-top:25px;
+	}	
+	
+	
+}
+/***********************end header***********************************/
+
+
+/****************progress bar*********************************/
+#progressBar{
+	width:97%;
+	margin-left:1%;
+	margin-top:10px;
+	border:#c7af63 2px solid;
+	padding:1% 0;
+	border-top-left-radius:50px;
+	border-top-right-radius:50px;
+	border-bottom-left-radius:50px;
+	border-bottom-right-radius:50px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#fff;
+	background-color:#959292;
+	font-size:.6em;
+}
+		 	
+#stepOne{
+	float:left;
+	width:20%;
+}
+
+#stepTwo{
+	float:left;
+	width:20%;
+}
+
+#stepThree{
+	float:left;
+	width:20%;
+}
+
+#stepFour{
+	float:left;
+	width:20%;
+}
+
+#total{
+	float:left;
+	width:20%;
+}
+			
+#stepOne div{
+	width:100%;
+}
+
+#stepTwo div{
+	width:100%;
+}
+
+#stepThree div{
+	width:100%;
+}
+
+#stepFour div{
+	width:100%;
+}
+
+#total div{
+	width:100%;
+}
+	
+
+
+
+/****************end progress bar***************************/
+
+
+/*****************************main area/home page**********************/
+/*main*/
+#build{
+	position:absolute;
+	opacity:0;
+	border:solid medium #fff;
+	border-radius:50px;
+	width:92%;
+	margin-left:4%;
+	margin-top:50px;
+	margin-bottom:150px;
+	background-color:#656565/*959292*/;
+	padding-bottom:3%;
+}
+
+#main{
+	position:absolute;
+	opacity:1;
+	z-index:10;
+	max-width:1900px;
+}
+
+.mobile{
+	width:100%;
+	max-width:459px;
+}
+
+#mobileBackground{
+	display:block;
+}
+
+#mobileBackground2{
+	display:none;
+}
+
+#right{
+	display:none;
+}
+
+#left{
+	display:none;
+}
+
+.tabletPic{
+	width:100%;
+	max-width:297px;
+}
+
+#center{
+	width:100%;
+}
+
+#bottom{
+	display:none;
+}
+
+.bottomBack{
+	width:100%;
+	max-width:1900px;
+}
+
+.fullScreen{
+	width:100%;
+	max-width:634px;
+	display:none;
+}
+
+@media screen and (min-width:459px){
+	#progressBar{
+		font-size:.8em;
+	}
+	
+	#center{
+		width:33.3%;
+		float:left;
+	}	
+	
+	#main{
+		width:100%;
+	}
+	
+	#right{
+		width:33.3%;
+		float:left;
+		display:block;
+	}
+	
+	#left{
+		width:33.3%;
+		float:left;
+		display:block;
+	}
+	
+	#mobileBackground{
+		display:none;
+	}
+	
+	#mobileBackground2{
+		display:block;
+	}
+}
+
+@media screen and (min-width:690px){
+	#main{
+		margin-top:50px;
+	}
+	
+	#build{
+		margin-top:75px;
+	}
+	
+	#progressBar{
+		width:50%;
+		margin-left:25%;
+		font-size:1em;
+	}
+}
+
+@media screen and (min-width:900px){
+	.tabletPic{
+		display:none;
+	}
+	
+	.fullScreen{
+		display:block;
+	}
+	
+	#bottom{
+		display:block;
+	}	
+	
+	#mobileBackground2{
+		display:none;
+	}
+	
+	#build{
+		width:60%;
+		margin-left:20%;
+		
+	}	
+}
+
+@media screen and (min-width:1300px){
+	#build{
+		margin-top:150px;
+	}
+}
+
+
+/**********************end main area/homepage**********************************************************/
+
+
+/************************footer*************************************/
+
+footer{
+	bottom:0px;
+	position:fixed;
+	text-align:center;
+	clear:both;
+	background-color:#fff;
+	width:100%;
+	margin:0 auto;
+	padding:20px 0 20px 0;
+	z-index:100;
+}
+
+h6{
+	font-weight:bold;
+	font-size:.7em;
+}
+
+footer p{
+	font-size:.6em;
+}
+/*****************end footer****************************************/
+
+
+
+/******************customer build section***************************/
+
+
+
+.timeDials{
+	width:40%;
+	float:left;
+	max-width:200px;
+	margin-left:5%;
+}
+
+.nextPrevButtons{
+	width:40%;
+	max-width:249px;
+}
+
+.prevNext{
+	text-align:center;
+	margin-top:50px;
+	clear:both;
+}
+	
+.prevNext a{
+	color:#fff;
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+	clear:both;
+}
+
+.steps{
+	width:100%; 
+	max-width:200px;
+	margin-top:10px;
+}
+
+.productImageWrap{
+	width:100%;
+	text-align:center;
+}
+
+.stepOne{
+	width:96%;
+	margin-top:25px;
+	border-top:#c7af63 solid medium;
+	margin-left:2%;
+}
+
+.stepTwo{
+	display:none;
+	width:96%;
+	border-top:#c7af63 solid medium;
+	margin-left:2%;
+}
+
+.stepThree{
+	display:none;
+	width:96%;
+	border-top:#c7af63 solid medium;
+	margin-left:2%;
+}
+
+.stepFour{
+	display:none;
+	width:96%;
+	border-top:#c7af63 solid medium;
+	margin-left:2%;
+}
+
+#miniCart{
+	display:none;
+	width:96%;
+	border-top:#c7af63 solid medium;
+	margin-left:2%;
+	color:#fff;
+}
+
+.watchHead{
+	z-index:20;
+	position:absolute;
+	margin:70px auto;
+}
+
+.dialBackIMG{
+	z-index:10;
+	position:absolute;
+	margin:70px auto;
+}
+
+.bandIMG{
+	z-index:30;
+	position:absolute;
+	margin:70px auto;
+}
+
+.dialIMG{
+	z-index:40;
+	position:absolute;
+	margin:70px auto;
+}
+	
+.watchImages{
+	width:40%;
+	max-width:300px;
+}
+
+.watchColor{
+	width:33%
+	;max-width:300px;
+	float:left;
+}
+
+.watchColor:hover{
+	background-color:#B3B1B1;
+	opacity:5;
+}
+
+.dialBack{
+	width:33%;
+	max-width:200px;
+	float:left;
+}
+
+.swatch{
+	max-width:200px;
+	width:33%;
+	float:left;
+}
+
+#gold1{
+	display:none;
+}
+
+#gold2{
+	display:none;
+}
+
+#silver1{
+	display:none;
+}
+
+#silver2{
+	display:none;
+}
+
+#black1{
+	display:none;
+}
+
+#black2{
+	display:none;
+}
+
+#mainBuild{
+	margin-top:225px;
+}
+
+
+
+.productIMG{
+	position:absolute;
+	top:0;
+	width:100%;
+	margin-top:65px;
+}
+
+@media screen and (min-width:330px){
+	.productIMG{
+		left:30px;
+	}	
+}
+	
+@media screen and (min-width:479px){
+		
+	#mainBuild{
+		width:40%;
+		margin-top:50px;
+		margin-left:55%;
+		border-left:#c7af63 solid medium;
+		padding-left:5%;
+	}
+	
+	.productIMG{
+		left:0px;
+	}
+	
+	.watchColor{
+		width:40%;
+		max-width:300px;
+		float:none;
+	}
+	
+	.watchImages{
+		width:60%;
+	}
+	
+	.dialBack{
+		width:25%;
+	}
+	
+	#build{
+		padding-bottom:100px;
+	}
+	
+	.stepOne{
+		border-top:none;
+	}
+	
+	.stepTwo{
+		border-top:none;
+	}
+	
+	.stepThree{
+		border-top:none;
+	}
+	
+	.stepFour{
+		border-top:none;
+	}
+	
+	#miniCart{
+		border-top:none;
+	}
+	
+	.prevNext{
+		margin-bottom:10px;
+	}
+	
+	
+	
+}
+	
+@media screen and (min-width:900px){
+	#mainBuild{
+		margin-left:50%;
+		border-left:#c7af63 solid medium;
+		padding-left:10%;
+	}
+	
+}
+/******************end custom build*****************************/
+
+
+/*****************about/contact/cart pages*****************************/
+#about{
+	position:absolute;
+	opacity:0;
+	border:solid medium #fff;
+	border-radius:50px;
+	width:92%;
+	margin-left:0;
+	margin-top:50px;
+	margin-bottom:150px;
+	background-color:#959292;
+	padding-bottom:3%;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#fff;
+	padding:2%;
+}
+	
+#contact{
+	position:absolute;
+	opacity:0;
+	border:solid medium #fff;
+	border-radius:50px;
+	width:92%;
+	margin-left:0;
+	margin-top:50px;
+	margin-bottom:150px;
+	background-color:#959292;
+	padding-bottom:3%;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#fff;
+	padding:2%;
+}
+
+
+#miniCart{
+	width:92%;
+	margin-left:4%;
+	padding-left:3%;
+	margin-top:10px;
+	border:#c7af63 2px solid;
+	padding:1% 0;
+	border-top-left-radius:50px;
+	border-top-right-radius:50px;
+	border-bottom-left-radius:50px;
+	border-bottom-right-radius:50px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#fff;
+	background-color:#959292;
+	font-size:.6em;
+}
+
+	
+.aboutContactPic{
+	width:100%;
+	max-width:400px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.aboutContactContent{
+	width:92%;
+	border-top:#c7af63 solid medium;
+	padding-top:35px;
+	margin-left:4%;
+	padding-bottom:35px;
+	line-height:1.2em;
+	font-weight:400;
+}
+
+@media screen and (min-width:690px){
+#miniCart{
+	font-size:.8em;
+}		
+}
+
+@media screen and (min-width:690px){
+
+	#about{
+		margin-top:75px;
+	}
+	
+	#contact{
+		margin-top:75px;
+	}
+	
+	
+	.aboutContactPic{
+		width:40%;
+		padding-right:9%;
+		float:left;
+		margin-top:75px;
+	}
+	
+	.aboutContactContent{
+		width:40%;
+		padding-left:9%;
+		float:left;
+		border-top:none;
+		border-left:#c7af63 solid medium;
+		margin-left:0;
+	}
+	
+	#miniCart{
+	font-size:1em;
+}
+}
+
+@media screen and (min-width:900px){
+
+	#about{
+		width:60%;
+		margin-left:20%;
+		
+	}	
+	
+	#contact{
+		width:60%;
+		margin-left:20%;	
+	}
+}
+
+@media screen and (min-width:1300px){
+	#about{
+		margin-top:150px;
+	}
+	
+	#contact{
+		margin-top:150px;
+	}
+}
+
+
+
+/*******************end about/contact pages**********************/
+
+/***************clearfix***************************************/
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+.clearfix {
+	/*display: inline-block;*/
+}
+html[xmlns] .clearfix {
+	display: block;
+}
+* html .clearfix {
+	height: 1%;
+}
+

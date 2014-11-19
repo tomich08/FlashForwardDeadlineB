@@ -1,0 +1,258 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">  
+<title>Flash Forward - Custom Watch Design</title>
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body class="clearfix">
+	<header class="clearfix">
+    <!--header contains main logo picture, navigation, and nav pics-->
+    	<div class="contentCenter">
+            <div id="logoWrap">
+                <img src="img/logo.png" alt="Flash Forward" class="logo"/>
+            </div><!--#logoWrap-->
+        
+            <div id="mainNav" class="clearfix">
+            	<ul>
+                 <li><a href="#"><img src="img/home.png" alt="home" class="navPics"/></a></li>
+                 <li><a href="#"><img src="img/build.png" alt="Build" class="navPics"/></a></li>
+                 <li><a href="#"><img src="img/about.png" alt="about" class="navPics"/></a></li>
+                 <li><a href="#"><img src="img/contact.png" alt="contact" class="navPics"/></a></li> 
+                </ul> 
+            </div><!--END #mainNav-->
+        </div><!--END .contentCenter-->
+    </header>
+
+	
+        <div id="main">
+        	
+            <div id="left">
+            <!--Contains left and right imagery for large mobile and desktop-->
+                <img src="img/leftTabletPic.png" alt="Checking Time" class="tabletPic"/>
+                <img src="img/fullscreenLeft.jpg" alt="Checking TIme" class="fullScreen"/>
+            </div><!--END #left-->
+            
+            <div id="center">
+            <!--Contains center imagery that is uses for all screen sizes-->
+                <a href="#"><img src="img/mobilebackground.jpg" alt="Watch Background" class="mobile" id="mobileBackground"/></a>
+                <a href="#"><img src="img/mobilebackgroundTablet.jpg" alt="Watch Background" class="tabletPic" id="mobileBackground2"/></a>
+                <a href="#"><img src="img/centerFullScreen.jpg" alt="Watch Background" class="fullScreen"/></a>
+            </div><!--END #center-->
+            
+            <div id="right">
+            <!--Contains left and right imagery for large mobile and desktop-->
+                <img src="img/rightTabletPic.png" alt="Checking Time" class="tabletPic"/>
+                <img src="img/rightFullScreen.jpg" alt="Checking TIme" class="fullScreen"/>
+            </div><!--end #right-->
+            
+            <div id="bottom">
+            <!--Contains bottom imagery that is only on desktop view-->
+                <img src="img/bottombackground.jpg" alt="Watch Models" class="bottomBack"/>
+            </div><!--end #bottom-->
+        </div><!--end #main-->
+    
+    <div id="build">
+	<!--Contains all elements used to build custom watch-->
+    <div class="productImageWrap clearfix">
+    	<!--IMG wrap contains header for current step-->
+   		 <img src="img/stepone.png" alt="Watch Color" class="steps"/>
+         <div id="progressBar" class="clearfix">
+         	<div id="stepOne">
+           		 <div class="watchColor2">Step One</div>
+                 <div class="watchColorPrice2">$0</div>
+            </div>
+            
+            <div id="stepTwo">
+           		 <div class="swatchColor2">Step Two</div>
+            </div>
+            
+            <div id="stepThree">
+           		 <div class="bandColorType2">Step Three</div>
+                 <div class="bandColorTypePrice2">$0</div>
+            </div>
+            
+            <div id="stepFour">
+         		 <div class="dialType2">Step Four</div>
+                 <div class="dialTypePrice2">$0</div>
+            </div>
+            
+            <div id="total">
+            	 <div class="totalTitle">Total</div>
+           		 <div class="total2">$0</div>
+            </div>        
+         </div>
+         
+       
+    
+        <div class="productIMG">
+        <!--following images are placeholders that are overwritten via javascript for individual watch pieces-->
+            <div class="watchHead">
+                <img src="img/blank.png" alt="watch color" class="watchImages headImage"/>
+            </div>
+            
+            <div class="dialBackIMG">
+                <img src="img/blank.png" alt="background color" class="watchImages backImage"/>
+            </div>
+            
+            <div class="bandIMG">
+                <img src="img/blank.png" alt="band style" class="watchImages bandImage"/>
+            </div>
+            
+            <div class="dialIMG">
+                <img src="img/blank.png" alt="dial" class="watchImages dialImage"/>
+            </div>
+        </div><!--end .productIMG-->
+    </div><!--end .productImageWrap-->
+	
+    
+ 	<div id="mainBuild">
+     <!--#mainBuild contains all the individual steps for watch building along with all the options-->
+
+
+		<div class="stepOne clearfix"> 
+        	<!--All imagery that is used for watch color selection STEP ONE-->
+            <!--<a href="#" value="Reload Page" onClick="window.location.reload()">-->
+            <a href="#"><img src="img/blackColor.png" alt="black" class="watchColor" id="black"></a>
+            <a href="#"><img src="img/goldColor.png" alt="gold" class="watchColor" id="gold"></a>
+            <a href="#"><img src="img/silverColor.png" alt="gold" class="watchColor" id="silver"></a>     
+         <div class="prevNext">
+      		<a class="next" href="#"><img src="img/next.png" alt="next" class="nextPrevButtons"/></a>
+        </div>          
+		</div><!--end STEPONE-->
+
+		
+
+
+    <div class="stepTwo clearfix">
+    <!--All imagery that is uses for STEP TWO picking background plate-->
+            <a href="#"><img src="img/blackSwatch.png" alt="Black Background" class="dialBack" id="blackS"></a>
+            <a href="#"><img src="img/blueSwatch.png" alt="Blue Background" class="dialBack" id="blueS"></a>
+            <a href="#"><img src="img/brownSwatch.png" alt="Brown Background" class="dialBack" id="brownS"></a>
+            <a href="#"><img src="img/greenSwatch.png" alt="Green Background" class="dialBack" id="greenS"></a>
+            <a href="#"><img src="img/redSwatch.png" alt="Red Background" class="dialBack" id="redS"></a>
+            <a href="#"><img src="img/silverSwatch.png" alt="Silver Background" class="dialBack" id="silverS"></a>
+            <a href="#"><img src="img/whiteSwatch.png" alt="White Background" class="dialBack" id="whiteS"></a>
+        <div class="prevNext">
+            <a class="prev" href="#"><img src="img/prev.png" alt="Previous" class="nextPrevButtons"/></a>
+            <a class="next" href="#"><img src="img/next.png" alt="next" class="nextPrevButtons"/></a>
+   		 </div>            
+    </div><!--end STEPTWO-->
+    
+   	
+
+
+    <div class="stepThree clearfix">
+    <!--ALL imagery that is uses for stepthree band options-->
+            <div id="bands">
+                <a href="#"><img src="img/18kGold.png" alt="Gold" class="swatch" id="gold1"></a>
+                <a href="#"><img src="img/blackTitanium.png" alt="Black" class="swatch" id="black1"></a>
+                <a href="#"><img src="img/silverTitanium.png" alt="Silver" class="swatch" id="silver1"></a>
+            </div>
+        
+            <div id="bands2">
+                <a href="#"><img src="img/14kGold.png" alt="Gold" class="swatch" id="gold2"></a>
+                <a href="#"><img src="img/silverRegular.png" alt="Black" class="swatch" id="silver2"></a>
+                <a href="#"><img src="img/blackRegular.png" alt="Silver" class="swatch" id="black2"></a>
+           </div>
+       
+           <div id="bands4">   
+                <a href="#"><img src="img/blackOutdoor.png" alt="Black Tactical" class="swatch" id="tacticBlack"></a>
+                <a href="#"><img src="img/blueOutdoor.png" alt="Blue Tactical" class="swatch" id="tacticBlue"></a>
+                <a href="#"><img src="img/greenOutdoor.png" alt="Green Tactical" class="swatch" id="tacticGreen"></a>
+                <a href="#"><img src="img/redOutdoor.png" alt="Red Tactical" class="swatch" id="tacticRed"></a>   
+           </div>
+           
+           <div class="prevNext">
+                <a class="prev" href="#"><img src="img/prev.png" alt="Previous" class="nextPrevButtons"/></a>
+                <a class="next" href="#"><img src="img/next.png" alt="next" class="nextPrevButtons"/></a>
+            </div>
+	</div><!--END step three-->
+    
+			
+
+            <div class="stepFour clearfix">
+            <!--all imagery four step four which in time dial selections-->
+                    <a href="#"><div id="regW"><img src="img/timeDialWhiteMetallic.png" alt="Time Dial" class="timeDials"/></div></a>
+                    <a href="#"><div id="romW"><img src="img/timeDialWhiteRoman.png" alt="Time Dial" class="timeDials"/></div></a>
+                    <a href="#"><div id="romB"><img src="img/timeDialBlackRoman.png" alt="Time Dial" class="timeDials"/></div></a>
+                    <a href="#"><div id="tacW"><img src="img/timeDialTact.png" alt="Time Dial" class="timeDials"/></div></a> 
+               <div class="prevNext">
+                   <a class="prev" href="#"><img src="img/prev.png" alt="Previous" class="nextPrevButtons"/></a>
+                   <a class="next" href="#"><img src="img/finish.png" alt="next" class="nextPrevButtons"/></a>
+           	   </div>      
+            </div><!--end step four-->
+            
+            
+            
+              
+                <div id="miniCart" class="clearfix">
+                	<div id="cartList">
+                        <div class="watchColor3"></div>
+                        <div class="watchColorPrice"></div>
+                        <div class="swatchColor"></div>
+                        <div class="swatchColorPrice"></div>
+                        <div class="bandColorType"></div>
+                        <div class="bandColorTypePrice"></div>
+                        <div class="dialType"></div>
+                        <div class="dialTypePrice"></div>
+                        <div class="totalDesc">Total</div>
+                        <div class="total">$0</div>
+                    </div>
+                    <div class="prevNext">
+                       <a class="prev" href="#"><img src="img/prev.png" alt="Previous" class="nextPrevButtons"/></a>
+                       <a class="next" href="#"><img src="img/finish.png" alt="next" class="nextPrevButtons"/></a>
+            		</div>
+                </div><!--end #miniCart-->
+              </div> <!--end #mainBuild-->
+ 	</div><!--end #build-->  
+                
+                
+           
+     		 
+ 
+    <div id="about" class="clearfix">
+    <!--About information-->
+    	<img src="img/about2.png" alt="About" class="aboutContactPic">
+    	<div class="aboutContactContent">
+        	<p>Flash Forward is an American manufacture of custom designed wristwatches for men. Founded in 2014 on the principles of letting every user design their own custom watch.  Flash Forward’s own custom watch builder application allows clients to personally design their own wristwatch in a simple four step process right from the main website.  Whether you’re a business man, outdoorsmen, or a sportsman, Flash Forward has all the features and options you will need to create the watch you always wanted.</p>
+        </div>
+    
+    </div><!--end About-->
+    
+    
+    
+    <div id="contact">
+    <!--Contact Information-->
+    	<img src="img/contact2.png" alt="Contact" class="aboutContactPic"/>
+        <div class="aboutContactContent">
+        	<h2>Flash Forward, INC</h2>
+            <p>1850 New Castle Lane</p>
+            <p>Pittsburgh, PA 15205</p><br/>
+            
+        	<h2>Customer Service:</h2>
+            <p>1-800-472-2242</p>
+            <p>service@flashforward.com</p>
+        </div>
+        
+        <style>
+			h2{font-weight:bold;font-size:1.1em;color:#c7af63;}
+			
+		</style>
+    
+    </div><!--end Contact-->
+
+  	<footer>
+    	<div class="contentCenter">
+            <h6>&copy; 2014 Matt Tomich</h6>
+            <p>This site is intended for student portfolio purposes only.  Thank you for visiting!</p>
+        </div>
+    </footer><!--end Footer-->
+    
+<script src="js/script.js"></script>
+
+</body>
+</html>
